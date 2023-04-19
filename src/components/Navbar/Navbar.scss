@@ -1,0 +1,27 @@
+@use '../../Styles/Variables.scss' as v;
+
+.Navbar{
+    width: 100%;
+    background-color: v.$main-color;
+    display: flex;
+    justify-content: center;
+
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-decoration: none;
+        color: black;
+
+        .icon{
+            font-size: 2rem;
+            margin-right: 10px;
+        }
+
+        .title{
+            font-family: v.$font-title;
+            letter-spacing: 2px;
+        }
+    }
+}
